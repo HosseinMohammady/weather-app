@@ -25,7 +25,7 @@ const Weather = () => {
             </label>
             <button
               className="btn btn-circle btn-outline bg-slate-200 text-[#555] hover:bg-zinc-400 hover:text-zinc-200"
-              onClick={(e) => {
+              onClick={() => {
                 window.location.replace(`?q=${inputRef.current?.value}`);
               }}
             >
